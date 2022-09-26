@@ -1,0 +1,969 @@
+/*Style.css*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*HEADER*/
+/*NAVBAR*/
+.nav {
+    margin-left: 22rem;
+}
+
+.navbar-nav a {
+    font-weight: 100;
+}
+.home {
+    margin-left: 6rem;
+    margin-right: 1rem;
+}
+
+.about {
+    margin-right: 1rem;
+}
+
+.contact {
+    margin-right: 1rem;
+}
+
+.get {
+    margin-right: 1rem;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 600;
+    color: orange;
+    margin-left: -3.3rem;
+}
+
+.logo span {
+    font-weight: 100;
+    letter-spacing: .1rem;
+}
+
+/*SLIDER*/
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 220px;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    color: black;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    font-weight: 400;
+    color: black;
+}
+
+.carousel-caption a {
+    text-transform: uppercase;
+    text-decoration: none;
+    background: yellow;
+    padding: 10px 30px;
+    display: inline-block;
+    color: white;
+    margin-top: 15px;
+}
+
+.carousel-caption a:hover {
+    background: rgba(255, 255, 0, 0.808);
+    text-decoration: none;
+    color: white;
+}
+
+/*ICONS*/
+.col {
+    font-size: 4rem;
+    margin-left: 4rem;
+}
+
+.col h2 {
+    font-size: 1rem;
+    margin-right: 1.7rem;
+}
+
+.col .head {
+    margin-left: .5rem;
+}
+
+/*SPACE*/
+.space {
+    background: rgb(248, 244, 244);
+    margin-top: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.heading {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.para-1 {
+    font-size: .9rem;
+    margin-right: 2rem;
+}
+
+.para-2 {
+    font-size: .9rem;
+}
+
+.col img {
+    width: 25rem;
+    height: 30rem;
+    border-radius: 3rem;
+}
+
+.heading {
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: .1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.para-3 {
+    line-height: .8rem;
+}
+
+.para {
+    font-size: .9rem;
+}
+
+/*SPACE 2*/
+.space-2 {
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
+
+.space-heading {
+    margin-top: 5rem;
+}
+
+.space-heading h2 {
+    font-size: 1.2rem;
+    font-weight: 800;
+    letter-spacing: .1rem;
+}
+
+.space-heading p {
+    font-size: .8rem;
+}
+
+.w2 {
+    display: flex;
+
+}
+
+.w2 h3 img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.space-2 h4 {
+    font-size: .9rem;
+    margin-top: 2.5rem;
+}
+
+.w2 h3 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.col-2-img img {
+    height: 29rem;
+    width: 28rem;
+    border-radius: .1rem;
+}
+
+/*TOUR*/
+.tour {
+    background: rgb(252, 252, 252);
+    margin-top: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+.line-breaker {
+    background: orange;
+    height: 4rem;
+    width: .1rem;
+    margin-left: 41.7rem;
+    margin-bottom: 2rem;
+}
+
+.tour h2 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.item {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/*BOOK*/
+.book {
+    margin-top: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.book-heading h2 {
+    font-size: 1.8rem;
+}
+
+.book-heading p {
+    font-size: .99rem;
+}
+
+.book-btn .btn {
+    margin-left: 16rem;
+    margin-top: 2rem;
+    width: 13rem;
+    height: 4rem;
+    font-size: .99rem;
+}
+
+/*QUESTION*/
+.question {
+    padding: 7rem;
+}
+
+.question h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-weight: 600;
+    font-size: 1.7rem;
+    letter-spacing: .1rem;
+}
+
+#a-1,
+#q-1,
+#a-2,
+#q-2,
+#a-3,
+#q-3,
+#a-4,
+#q-4,
+#a-5,
+#q-5,
+#a-6,
+#q-6,
+#a-7,
+#q-7,
+#a-8,
+#q-8,
+#a-9,
+#q-9,
+#a-10,
+#q-10,
+#a-11,
+#q-11,
+#a-12,
+#q-12,
+#a-13,
+#q-13 {
+    padding: 1rem;
+    text-align: left;
+    color: black;
+    font-size: .9rem;
+    font-weight: 700;
+    background: rgb(255, 250, 250);
+}
+
+#q-1:hover,
+#q-2:hover,
+#q-3hover,
+#q-4:hover,
+#q-5:hover,
+#q-6:hover,
+#q-7:hover,
+#q-8:hover,
+#q-9:hover,
+#q-10:hover,
+#q-11:hover,
+#q-12:hover,
+#q-13:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+#a-1,
+#a-2,
+#a-3,
+#a-4,
+#a-5,
+#a-6,
+#a-7,
+#a-8,
+#a-9,
+#a-10,
+#a-11,
+#a-12,
+#a-13 {
+
+    display: none;
+    color: rgb(102, 102, 102);
+    font-weight: 200;
+}
+
+/*CONTACT US*/
+.contact h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#email {
+    width: 35rem;
+    height: 3rem;
+    border-color: 1px solid rgb(177, 173, 173);
+    margin-bottom: .7rem;
+}
+
+#date {
+    width: 34em;
+    height: 3rem;
+    border-color: 1px solid rgb(177, 173, 173);
+}
+
+#time {
+    margin-bottom: .7rem;
+}
+
+.b-btn {
+    margin-left: 31rem;
+    margin-top: .7rem;
+    margin-bottom: 3rem;
+}
+
+/*----------------FOOTER------------*/
+.number h3 {
+    text-align: center;
+    background: orange;
+    color: white;
+    padding: 2rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+footer {
+    background: black;
+    margin-top: -1rem;
+}
+
+/*FOOTER 1*/
+.station h2 {
+    font-size: 1.8rem;
+    color: white;
+    margin-top: 5rem;
+    margin-left: -7rem;
+}
+
+.station p {
+    font-size: .9rem;
+    color: white;
+    margin-left: -7rem;
+    margin-top: 1.3rem;
+    line-height: 1.8rem;
+    font-weight: 600;
+}
+
+/*FOOTER 2*/
+.links h2 {
+    font-size: 1rem;
+    color: white;
+    margin-top: 5rem;
+    margin-left: -2rem;
+    font-weight: 600;
+    margin-bottom: -2rem;
+}
+
+.other-link p a {
+    font-size: 1rem;
+    font-weight: 200;
+    color: white;
+    margin-top: 3rem;
+    margin-left: -2rem;
+    text-decoration: none;
+}
+
+.faqs {
+    margin-top: -10rem;
+}
+
+.blog {
+    margin-top: -10rem;
+}
+
+.other-link p a:hover {
+    color: orange;
+    transition: .2s all ease-in-out;
+}
+
+/*FOOTER 3*/
+.info h3 {
+    font-size: 1rem;
+    color: white;
+    margin-top: 9rem;
+    font-weight: 600;
+    margin-left: -5rem;
+}
+
+.info p {
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+    margin-left: -5rem;
+}
+
+/*FOOTER 4*/
+.address p {
+    font-size: .99rem;
+    color: white;
+    margin-top: 9.9rem;
+    margin-left: -6rem;
+    font-weight: 600;
+}
+
+/*COPYRIGHT*/
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright p {
+    color: white;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+.copyright span {
+    color: orange;
+}
+
+.copyright .fa {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.copyright .fa:hover {
+    color: orange;
+    cursor: pointer;
+    transition: .2s all ease-in;
+}
+
+.fa-facebook {
+    margin-left: 40rem;
+}
+
+.fa-instagram {
+    margin-left: -4rem;
+}
+
+.fa-github {
+    margin-left: -7.2rem;
+}
+
+/*---------------ABOUT--------------*/
+.about-img img 
+{
+    width: 100%;
+}
+.centered 
+{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: white;
+    font-weight: 700;
+}
+/*ABOUT COLUMN*/
+.about-col {
+    margin-bottom: 8rem;
+    background: rgb(248, 244, 244);
+}
+
+.coworking p {
+    margin-top: 8rem;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.coworking h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.story h2 {
+    font-size: 1rem;
+    margin-top: 4rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+}
+
+.story p {
+    font-size: .8rem;
+    line-height: 2rem;
+}
+
+.mission h2 {
+    font-size: 1rem;
+    margin-top: 4rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+}
+
+.mission p {
+    font-size: .8rem;
+    line-height: 2rem;
+}
+
+/*---OFFER----*/
+.offer
+{
+    background: rgb(248, 244, 244);
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+}
+.offer h5
+{
+    font-size: 1.1rem;
+    margin-left: 4.9rem;
+    font-weight: 800;
+    color: orange;
+}
+/*SET COL 1*/
+.set-col-1
+{
+    display: flex;
+    align-items: flex-start;
+    padding: 25px;
+}
+.set-col-1 h6
+{
+    margin-left: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.set-col-1 img
+{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+    margin-left: 2rem;
+    border-radius: 0;
+    margin-top: -2rem;
+}
+.a-c
+{
+    margin-left: 1rem;
+}
+.team
+{
+    margin-left: 1rem;
+}
+.set-col-1 h4
+{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: -1.7rem;
+}
+.set-col-1 p
+{
+    font-size: .9rem;
+    font-weight: 100;
+    margin-left: .3rem;
+    line-height: 2rem;
+}
+/*SET COL 2*/
+.set-col-2
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.set-col-2 img
+{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+    border-radius: 0;
+}
+.set-col-2 h4
+{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.set-col-2 p
+{
+    font-size: .8rem;
+    font-weight: 100;
+    margin-left: 0;
+    line-height: 2rem;
+}
+/*---COMMUNITY----*/
+.community
+{
+    background: orange;
+    color: white;
+    padding: 4rem;
+    margin-bottom: 7rem;
+}
+.community h2
+{
+    font-size: 1.7rem;
+    margin-left: -4rem;
+    margin-top: -4rem;
+}
+.community p
+{
+    font-size: 1rem;
+    margin-left: -3.7rem;
+}
+.com-btn
+{
+    margin-left: 51rem;
+    width: 22rem;
+    height: 4rem;
+    margin-top: 2rem;
+}
+
+/*---------CONTACT-------*/
+.centered-2 
+{
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: white;
+    font-weight: 600;
+}
+.contact-para
+{
+    background: rgb(248, 244, 244);
+    margin-top: 5rem;
+    margin-left: -1rem;
+    height: 45rem;
+}
+.contact-para h2
+{
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-left: 2.4rem;
+    margin-top: 3rem;
+}
+.contact-para p
+{
+    font-size: .9rem;
+    margin-top: 2rem;
+    margin-left: 2.4rem;
+}
+#name
+{
+    font-size: 1rem;
+    width: 13rem;
+    height: 2rem;
+    margin-left: 2.6rem;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    border-radius: 0%;
+    background: rgb(248, 244, 244);
+}
+#mail
+{
+    font-size: 1rem;
+    width: 13rem;
+    height: 2rem;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    border-radius: 0%;
+    background: rgb(248, 244, 244);
+}
+#number
+{
+    font-size: 1rem;
+    width: 27.3rem;
+    height: 2rem;
+    margin-left: 2.5rem;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    border-radius: 0%;
+    background: rgb(248, 244, 244);
+}
+#message
+{
+    font-size: 1rem;
+    width: 26.3rem;
+    margin-left: 2.6rem;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    border-radius: 0%;
+    height: 3rem;
+    background: rgb(248, 244, 244);
+}
+.btn-touch
+{
+    margin-left: 11rem;
+    width: 9rem;
+    height: 3rem;
+    margin-bottom: 4rem;
+}
+.fonts
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    margin-top: 9rem;
+}
+.fonts .fa-solid
+{
+    color: orange;
+}
+.fonts h3
+{
+    font-size: 1rem;
+    margin-left: 2.3rem;
+    margin-top: -1.2rem;
+}
+.follow h4
+{
+    font-weight: 700;
+}
+.follow .fa-brands
+{
+    margin-left: -1rem;
+    padding: 1rem;
+    font-size: .99rem;
+    color: rgb(177, 173, 173);
+}
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+.map-container iframe{
+    left:0;
+    top:0;
+    height:40%;
+    width:100%;
+    position:absolute;
+}
+/*---------GET A QUOTE------*/
+.contact-3
+{
+    margin-top: 3rem;
+}
+.contact-para-2 h2
+{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 3rem;
+}
+.contact-para-2 p
+{
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: .2px;
+}
+.line-breaker-2
+{
+    background: orange;
+    height: 4rem;
+    width: 0.1rem;
+    margin-left: 33rem;
+}
+#name-2
+{
+    font-size: 1rem;
+    width: 30rem;
+    margin-left: 3rem;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    border-radius: 0%;
+}
+#company-2
+{
+    font-size: 1rem;
+    width: 30rem;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    border-radius: 0%;
+}
+#email-2
+{
+    font-size: 1rem;
+    width: 30rem;
+    margin-left: 3rem;
+    height: 3rem;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    border-radius: 0%;
+}
+#number-2
+{
+    font-size: 1rem;
+    width: 30rem;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    border-radius: 0%;
+    height: 3rem;
+}
+#desks
+{
+    font-size: 1rem;
+    margin-left: 3rem;
+    width: 30rem;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    border-radius: 0%;
+}
+#quality
+{
+    font-size: 1rem;
+    width: 30rem;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    border-radius: 0%;
+    height: 2.8rem;
+}
+#message-2
+{
+    font-size: 1rem;
+    width: 60rem;
+    margin-left: 3rem;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    border-radius: 0%;
+}
+.btn-qoute
+{
+    margin-left: 28rem;
+    height: 4rem;
+    width: 10rem;
+    margin-bottom: 4rem;
+}
+.hr
+{
+    background: rgb(177, 173, 173);
+    width: 78rem;
+    margin-left: 3rem;
+}
+/*----------TOUR-----------*/
+#name-3
+{
+    font-size: 1rem;
+    width: 30rem;
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    border-radius: 0%;
+    margin-right: 1rem;
+}
+#email-3
+{
+    font-size: 1rem;
+    width: 30rem;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    border-radius: 0%;
+    height: 3.2rem;
+}
+#number-3
+{
+    font-size: 1rem;
+    width: 30rem;
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    border-radius: 0%;
+    margin-right: 1rem;
+}
+#date-3
+{
+    font-size: 1rem;
+    width: 30rem;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    border-radius: 0%;
+    height: 3.2rem;
+}
+#time-2
+{
+    font-size: 1rem;
+    margin-left: 2rem;
+    width: 61.5rem;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    border-radius: 0%;
+}
+#message-3
+{
+    font-size: 1rem;
+    width: 61.5rem;
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    border-radius: 0%;
+}
+.navbar-toggler
+{
+    background: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+/*MEDIA QUERY*/
